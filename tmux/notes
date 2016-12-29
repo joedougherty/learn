@@ -1,0 +1,19 @@
+; Create new tmux sessions
+tmux
+
+; Detach
+crtl-b d
+
+; Re-attach
+tmux attach -t <session number>
+
+; Horizontal split pane
+crtl-b %
+
+; Vertical split pane
+ctrl-b "
+
+; Move between panes
+crtl-b <left arrow>
+crtl-b <right arrow>
+
