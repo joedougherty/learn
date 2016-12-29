@@ -1,6 +1,9 @@
 ; Create new tmux sessions
 tmux
 
+; Create named tmux session
+tmux new -s <session_name>
+
 ; Detach
 crtl-b d
 
