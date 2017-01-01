@@ -24,3 +24,6 @@ def can_safely_zip(*args):
 
 assert dict(zip(letters, numbers)) == {'a': 1, 'b': 2, 'c': 3}
 
+# If you really need to deal with multiple iterators of varying 
+# lengths, investigate `zip_longest` from the itertools module
+
