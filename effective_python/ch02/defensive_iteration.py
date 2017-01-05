@@ -42,5 +42,9 @@ or an iterator by calling iter() on it and seeing what it returns!
 """
 
 # TODO: Add code to demonstrate previous block
+
 # More on container types: 
 #   https://stackoverflow.com/questions/11575925/what-exactly-are-containers-in-python-and-what-are-all-the-python-container
+
+# See also: 
+#   https://leanpub.com/intermediatepython/read#leanpub-auto-iterators-and-generators
