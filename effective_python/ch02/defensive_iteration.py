@@ -31,8 +31,11 @@ A key distiction here is between *container types* and *iterators*
 
 When iter() receives a container type:
     returns a new iterator object each time
+    (Examples: list, string, set)
+
 When iter() receives an iterator:
     returns the iterator itself
+    (Examples: generator)
 
 Thus, you can check at runtime if a given iterable is a container 
 or an iterator by calling iter() on it and seeing what it returns!
