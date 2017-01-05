@@ -13,11 +13,11 @@ Solution: implement the iterator protocol!
     which is just another way of saying...
 `iterable_thing.__iter__()`
     that method needs to return an iterator object,
-    which needs to provude the __next__ method
+    which needs to provide the __next__ method
 
 """
 
-class GenericFileReaderGenerator():
+class FileReader():
     def __init__(self, path_to_file):
         self.path_to_file = path_to_file
 
@@ -39,3 +39,5 @@ or an iterator by calling iter() on it and seeing what it returns!
 """
 
 # TODO: Add code to demonstrate previous block
+# More on container types: 
+#   https://stackoverflow.com/questions/11575925/what-exactly-are-containers-in-python-and-what-are-all-the-python-container
