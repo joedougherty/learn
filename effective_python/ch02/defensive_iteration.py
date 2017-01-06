@@ -56,10 +56,13 @@ GLOSSARY:
         ex: lists, tuples, dicts, sets
 
     iterator: object that implements the iterator protocol
-        ex: fr = FileReader('/path/to/some/file.txt')
 
 An iterable is *not necessarily* an iterator
 
 iterators *must* have a __next__ method.
 
 """
+
+def object_is_iterator(obj):
+    return hasattr(obj, '__next__')
+
