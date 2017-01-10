@@ -46,8 +46,26 @@ def outer_py2():
     inner()
     return pertinent_value[0]
 
-# TODO: Look more closely at class-based example 
-# given on pg. 35
+# Another way to do this *without* using nonlocal
+# is to create a small class and use the __call__ 
+# method to pass it around as though it were a function
+class CustomOrderer:
+    def __init__(self, haystack):
+        self.haystack = haystack
+        self.detected = False
+
+    def __call__(self, needle):
+        if needle in self.haystack:
+            self.detected = True
+            return (0, needle)
+        return (1, needle)
+
+chosen_ones = [11,13,17,19,23]
+orderer = CustomOrderer(chosen_ones)
+mostly_evens = [2,4,6,8,10,12,13,14,16,18,20]
+mostly_evens.sort(key=orderer)
+
+assert mostly_evens == [13,2,4,6,8,10,12,14,16,18,20]
 
 if __name__ == '__main__':
     import doctest
