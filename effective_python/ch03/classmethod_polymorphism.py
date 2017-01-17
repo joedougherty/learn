@@ -85,5 +85,45 @@ To be able to use this, we need:
         (called by create_workers)
 """
 
-# TODO: Give rundown of what happens here!
+class GenericWorker(object):
+    def map(self):
+        raise NotImplementedError
 
+    def reduce(self, other):
+        raise NotImplementedError
+
+    @classmethod
+    def create_workers(cls, input_class, config):
+        workers = []
+        for input_data in input_class.generate_inputs(config):
+            workers.append(cls(input_data))
+        return workers
+
+class LineCountWorker(GenericWorker):
+    def map(self):
+        data = self.input_data.read()
+        self.result = data.count('\n')
+
+    def reduce(self, other):
+        self.result += other.result
+
+"""
+    workers = worker_class.create_workers(input_class, config)
+
+When this line is called, the following occurs:
+
+    * The create_workers classmethod is called
+        The concrete classes in question here are: 
+            * LineCountWorker
+            * PathInputData 
+    * The generate_inputs classmethod is called (with config dict)
+        Assume the path given by the config dict contains 3 files:
+            * a.txt
+            * b.txt
+            * c.txt
+
+        generate_inputs yields a generator object that produces
+        instances of the PathInputData class, one per file found
+        in directory given by config dict
+
+"""

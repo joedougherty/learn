@@ -1,3 +1,5 @@
+import os
+
 class GenericInputData(object):
     def read(self):
         raise NotImplementedError
