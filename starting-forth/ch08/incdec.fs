@@ -1,0 +1,4 @@
+variable COUNTER
+
+: +COUNTER   1 COUNTER +! ;
+: -COUNTER   COUNTER @ - 1 COUNTER ! ;
