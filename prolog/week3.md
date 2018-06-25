@@ -1,11 +1,11 @@
-Here's sort of a weird bit from Derek Banas' Prolog Video [https://www.youtube.com/watch?v=SykxWpFwMGs]:
+Here's sort of a weird bit from (Derek Banas' Prolog Video)[https://www.youtube.com/watch?v=SykxWpFwMGs]:
 
 
     % At the REPL/query prompt...
 
     ?- rich(money, X) = rich(Y, no_debt).
 
-This evaluates to *true* but I'm not sure I understand what it means.
+This evaluates to **true** but I'm not sure I understand what it means.
 
 
 # trace #
