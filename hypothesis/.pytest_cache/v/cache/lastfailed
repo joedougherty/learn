@@ -1,0 +1,4 @@
+{
+  "test_convoluted.py::test_zip_unzip": true,
+  "test_verbose.py::test_floats_are_commutative": true
+}

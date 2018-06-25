@@ -1,0 +1,1898 @@
+import _frozen_importlib # frozen
+import _imp # builtin
+import sys # builtin
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'posix' # <class '_frozen_importlib.BuiltinImporter'>
+import _thread # previously loaded ('_thread')
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import _weakref # previously loaded ('_weakref')
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+# installing zipimport hook
+import 'zipimport' # <class '_frozen_importlib.BuiltinImporter'>
+# installed zipimport hook
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/codecs.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/codecs.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/codecs.cpython-36.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c5efd0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/aliases.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3bf69b0>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c5eb38>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/utf_8.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c037b8>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/latin_1.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc'
+import 'encodings.latin_1' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c0a2e8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/io.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/io.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/io.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/abc.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/abc.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/abc.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/_weakrefset.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc'
+import '_weakrefset' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c0f278>
+import 'abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c0a8d0>
+import 'io' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c0a518>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/_bootlocale.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import '_bootlocale' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c119e8>
+Python 3.6.5 (default, Apr 29 2018, 12:24:35) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/site.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/site.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/site.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/os.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/os.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/os.cpython-36.pyc'
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/stat.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/stat.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/stat.cpython-36.pyc'
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3bb6320>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/posixpath.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/posixpath.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/posixpath.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/genericpath.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/genericpath.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/genericpath.cpython-36.pyc'
+import 'genericpath' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3bbacf8>
+import 'posixpath' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3bb69e8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/_collections_abc.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc'
+import '_collections_abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3bc2390>
+import 'os' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3ba4c18>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/_sitebuiltins.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc'
+import '_sitebuiltins' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3ba4fd0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/sysconfig.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc'
+import 'sysconfig' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3b54748>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_sysconfigdata_m_linux_x86_64-linux-gnu.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/_sysconfigdata_m_linux_x86_64-linux-gnu.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_sysconfigdata_m_linux_x86_64-linux-gnu.cpython-36.pyc'
+import '_sysconfigdata_m_linux_x86_64-linux-gnu' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3b63fd0>
+import 'site' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3c20978>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/runpy.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/runpy.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/runpy.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/types.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/types.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/types.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/functools.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/functools.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/functools.cpython-36.pyc'
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/collections/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/operator.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/operator.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/operator.cpython-36.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2b05c18>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/keyword.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/keyword.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/keyword.cpython-36.pyc'
+import 'keyword' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2b0ce80>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/heapq.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/heapq.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/heapq.cpython-36.pyc'
+# extension module '_heapq' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_heapq' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so'
+import '_heapq' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d2a90ba8>
+import 'heapq' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2a906d8>
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/reprlib.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/reprlib.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/reprlib.cpython-36.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2a90c88>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2ae5320>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/weakref.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/weakref.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/weakref.cpython-36.pyc'
+import 'weakref' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2ae5710>
+import 'functools' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2ad1ac8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/collections/abc.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc'
+import 'collections.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2adb780>
+import 'types' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3b76da0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/warnings.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/warnings.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/warnings.cpython-36.pyc'
+import 'warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3b76f60>
+import 'importlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3b76978>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__pycache__/machinery.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/machinery.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__pycache__/machinery.cpython-36.pyc'
+import 'importlib.machinery' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2ade710>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__pycache__/util.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/util.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__pycache__/util.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__pycache__/abc.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/abc.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/importlib/__pycache__/abc.cpython-36.pyc'
+import 'importlib.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2abcdd8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/contextlib.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/contextlib.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/contextlib.cpython-36.pyc'
+import 'contextlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2acaf28>
+import 'importlib.util' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2abc588>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/pkgutil.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/pkgutil.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/pkgutil.cpython-36.pyc'
+import 'pkgutil' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2859a58>
+import 'runpy' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d3b76470>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/__pycache__/pytest.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pytest.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/__pycache__/pytest.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/_version.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_version.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/_version.cpython-36.pyc'
+import '_pytest._version' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2867dd8>
+import '_pytest' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2867a58>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/config.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/config.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/config.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/__future__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__future__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/__future__.cpython-36.pyc'
+import '__future__' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2886828>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/argparse.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/argparse.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/argparse.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/copy.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/copy.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/copy.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/copyreg.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/copyreg.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/copyreg.cpython-36.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d28314e0>
+import 'copy' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2826f98>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/re.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/re.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/re.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/enum.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/enum.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/enum.cpython-36.pyc'
+import 'enum' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2839860>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/sre_compile.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/sre_compile.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/sre_compile.cpython-36.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/sre_parse.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/sre_parse.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/sre_parse.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/sre_constants.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/sre_constants.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/sre_constants.cpython-36.pyc'
+import 'sre_constants' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27e1198>
+import 'sre_parse' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27d1860>
+import 'sre_compile' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2848b00>
+import 're' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2831978>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/textwrap.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/textwrap.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/textwrap.cpython-36.pyc'
+import 'textwrap' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27d15c0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/gettext.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/gettext.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/gettext.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/locale.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/locale.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/locale.cpython-36.pyc'
+import 'locale' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2803630>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/struct.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/struct.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/struct.cpython-36.pyc'
+# extension module '_struct' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_struct' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so'
+import '_struct' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d2753a20>
+import 'struct' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2753898>
+import 'gettext' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27ed208>
+import 'argparse' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2886d30>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/shlex.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/shlex.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/shlex.cpython-36.pyc'
+import 'shlex' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2814f98>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/traceback.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/traceback.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/traceback.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/linecache.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/linecache.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/linecache.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/tokenize.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/tokenize.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/tokenize.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/token.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/token.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/token.cpython-36.pyc'
+import 'token' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d277cba8>
+import 'tokenize' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27706d8>
+import 'linecache' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27703c8>
+import 'traceback' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27654a8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/six.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc'
+import 'six' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27705c0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__pycache__/_error.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_error.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__pycache__/_error.cpython-36.pyc'
+import 'py._error' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24ffdd8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_vendored_packages/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_vendored_packages/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_vendored_packages/__pycache__/__init__.cpython-36.pyc'
+import 'py._vendored_packages' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2513978>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_vendored_packages/__pycache__/apipkg.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_vendored_packages/apipkg.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_vendored_packages/__pycache__/apipkg.cpython-36.pyc'
+import 'py._vendored_packages.apipkg' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2513a90>
+import 'py' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24f5358>
+# destroy py
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/outcomes.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/outcomes.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/outcomes.cpython-36.pyc'
+import '_pytest.outcomes' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2523828>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/__pycache__/code.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/code.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/__pycache__/code.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/inspect.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/inspect.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/inspect.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/ast.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/ast.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/ast.cpython-36.pyc'
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ast' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24d7f98>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/dis.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/dis.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/dis.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/opcode.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/opcode.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/opcode.cpython-36.pyc'
+# extension module '_opcode' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_opcode' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so'
+import '_opcode' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d248b780>
+import 'opcode' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d248b048>
+import 'dis' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2482ef0>
+import 'inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24bb470>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/converters.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/converters.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/converters.cpython-36.pyc'
+import 'attr.converters' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d249cd68>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/exceptions.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/exceptions.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/exceptions.cpython-36.pyc'
+import 'attr.exceptions' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d249cef0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/filters.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/filters.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/filters.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/_compat.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/_compat.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/_compat.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/platform.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/platform.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/platform.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/subprocess.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/subprocess.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/subprocess.cpython-36.pyc'
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/signal.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/signal.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/signal.cpython-36.pyc'
+import 'signal' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d224ae80>
+# extension module '_posixsubprocess' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_posixsubprocess' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so'
+import '_posixsubprocess' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d2253400>
+# extension module 'select' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'select' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so'
+import 'select' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d2253630>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/selectors.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/selectors.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/selectors.cpython-36.pyc'
+# extension module 'math' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'math' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so'
+import 'math' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d22674a8>
+import 'selectors' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2253940>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/threading.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/threading.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/threading.cpython-36.pyc'
+import 'threading' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2263f28>
+import 'subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d223cf28>
+import 'platform' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24b4198>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/__pycache__/__init__.cpython-36.pyc'
+# extension module '_ctypes' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_ctypes' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so'
+import '_ctypes' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d1bf86d8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/__pycache__/_endian.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/_endian.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/__pycache__/_endian.cpython-36.pyc'
+import 'ctypes._endian' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d1c06898>
+import 'ctypes' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d1be1ef0>
+import 'attr._compat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24a26a0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/_make.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/_make.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/_make.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/hashlib.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/hashlib.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/hashlib.cpython-36.pyc'
+# extension module '_hashlib' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_hashlib' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so'
+import '_hashlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d1979ac8>
+# extension module '_blake2' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_blake2' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so'
+import '_blake2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d197e198>
+# extension module '_sha3' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_sha3' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so'
+import '_sha3' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d197e2b0>
+import 'hashlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d1c16f98>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/_config.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/_config.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/_config.cpython-36.pyc'
+import 'attr._config' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d1979710>
+import 'attr._make' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24b40f0>
+import 'attr.filters' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24a20f0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/validators.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/validators.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/validators.cpython-36.pyc'
+import 'attr.validators' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24a2b00>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/_funcs.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/_funcs.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/attr/__pycache__/_funcs.cpython-36.pyc'
+import 'attr._funcs' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d199c128>
+import 'attr' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d24d7240>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/compat.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/compat.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/compat.cpython-36.pyc'
+import '_pytest.compat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d199c470>
+import '_pytest._code.code' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2529080>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/__pycache__/source.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/source.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_code/__pycache__/source.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/bisect.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/bisect.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/bisect.cpython-36.pyc'
+# extension module '_bisect' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_bisect' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so'
+import '_bisect' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d19ac358>
+import 'bisect' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d19a9fd0>
+import '_pytest._code.source' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d19a9438>
+import '_pytest._code' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2523c50>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/hookspec.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/hookspec.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/hookspec.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pluggy/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pluggy/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pluggy/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pluggy/__pycache__/callers.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pluggy/callers.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pluggy/__pycache__/callers.cpython-36.pyc'
+import 'pluggy.callers' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0ccceb8>
+import 'pluggy' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d19ac550>
+import '_pytest.hookspec' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2523ef0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__pycache__/util.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/util.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__pycache__/util.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/pprint.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/pprint.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/pprint.cpython-36.pyc'
+import 'pprint' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0ce5a20>
+import '_pytest.assertion.util' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0cd8a90>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/rewrite.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/imp.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/imp.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/imp.cpython-36.pyc'
+import 'imp' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0cfe908>
+import '_pytest.assertion.rewrite' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0cebcc0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__pycache__/truncate.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/truncate.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/assertion/__pycache__/truncate.cpython-36.pyc'
+import '_pytest.assertion.truncate' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0cebd30>
+import '_pytest.assertion' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0ccc978>
+import '_pytest.config' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2867b38>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/fixtures.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/fixtures.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/fixtures.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_code/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_code/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_code/__pycache__/__init__.cpython-36.pyc'
+import 'py._code' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0ca76d8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_code/__pycache__/code.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_code/code.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_code/__pycache__/code.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__pycache__/_builtin.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_builtin.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__pycache__/_builtin.cpython-36.pyc'
+import 'py._builtin' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0cba1d0>
+import 'py._code.code' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0ca7748>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/nodes.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/nodes.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/nodes.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__pycache__/structures.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/structures.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__pycache__/structures.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/deprecated.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/deprecated.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/deprecated.cpython-36.pyc'
+import '_pytest.deprecated' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c517f0>
+import '_pytest.mark.structures' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c49908>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__pycache__/legacy.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/legacy.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__pycache__/legacy.cpython-36.pyc'
+import '_pytest.mark.legacy' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c597f0>
+import '_pytest.mark' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c495f8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/__pycache__/__init__.cpython-36.pyc'
+import 'py._path' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c59908>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/__pycache__/local.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/local.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/__pycache__/local.cpython-36.pyc'
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/uuid.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/uuid.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/uuid.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/__pycache__/util.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/util.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/ctypes/__pycache__/util.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/shutil.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/shutil.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/shutil.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/fnmatch.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/fnmatch.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/fnmatch.cpython-36.pyc'
+import 'fnmatch' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c14710>
+# extension module 'zlib' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'zlib' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so'
+import 'zlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d0c14a58>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/bz2.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/bz2.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/bz2.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_compression.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/_compression.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_compression.cpython-36.pyc'
+import '_compression' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c1b710>
+# destroy bz2
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/lzma.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/lzma.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/lzma.cpython-36.pyc'
+# destroy lzma
+import 'pwd' # <class '_frozen_importlib.BuiltinImporter'>
+# extension module 'grp' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'grp' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so'
+import 'grp' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d0c145f8>
+import 'shutil' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c81dd8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/tempfile.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/tempfile.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/tempfile.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/random.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/random.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/random.cpython-36.pyc'
+# extension module '_random' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_random' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so'
+import '_random' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d0c39cc0>
+import 'random' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c306a0>
+import 'tempfile' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c81ef0>
+import 'ctypes.util' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c81128>
+import 'uuid' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c73550>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/__pycache__/common.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/common.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_path/__pycache__/common.cpython-36.pyc'
+import 'py._path.common' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c81240>
+import 'py._path.local' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0c497b8>
+import '_pytest.nodes' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0cba400>
+import '_pytest.fixtures' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d2876a20>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/freeze_support.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/freeze_support.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/freeze_support.cpython-36.pyc'
+import '_pytest.freeze_support' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d01a3860>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/debugging.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/debugging.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/debugging.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/pdb.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/pdb.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/pdb.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/cmd.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/cmd.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/cmd.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/string.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/string.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/string.cpython-36.pyc'
+import '_string' # <class '_frozen_importlib.BuiltinImporter'>
+import 'string' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d01cb5f8>
+import 'cmd' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d01c5a20>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/bdb.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/bdb.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/bdb.cpython-36.pyc'
+import 'bdb' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d01cb550>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/code.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/code.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/code.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/codeop.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/codeop.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/codeop.cpython-36.pyc'
+import 'codeop' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0164780>
+import 'code' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0164048>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/glob.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/glob.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/glob.cpython-36.pyc'
+import 'glob' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0164748>
+import 'pdb' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d01a3da0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/doctest.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/doctest.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/doctest.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/difflib.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/difflib.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/difflib.cpython-36.pyc'
+import 'difflib' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0185b38>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/result.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/result.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/result.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/util.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/util.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/util.cpython-36.pyc'
+import 'unittest.util' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d278cc88>
+import 'unittest.result' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d278c6a0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/case.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/case.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/case.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/logging/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/logging/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/logging/__pycache__/__init__.cpython-36.pyc'
+import 'logging' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d27aff98>
+import 'unittest.case' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d278cc18>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/suite.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/suite.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/suite.cpython-36.pyc'
+import 'unittest.suite' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0098be0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/loader.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/loader.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/loader.cpython-36.pyc'
+import 'unittest.loader' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d00a7470>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/main.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/main.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/main.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/runner.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/runner.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/runner.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/signals.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/signals.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/unittest/__pycache__/signals.cpython-36.pyc'
+import 'unittest.signals' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d00b6fd0>
+import 'unittest.runner' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d00b6668>
+import 'unittest.main' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d00a7f98>
+import 'unittest' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d018eda0>
+import 'doctest' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d01c51d0>
+import '_pytest.debugging' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d01a3978>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/recwarn.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/recwarn.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/recwarn.cpython-36.pyc'
+import '_pytest.recwarn' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d00bc828>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/main.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/main.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/main.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/runner.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/runner.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/runner.cpython-36.pyc'
+import '_pytest.runner' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0055748>
+import '_pytest.main' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d004e630>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/python.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/python.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/python.cpython-36.pyc'
+import '_pytest.python' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d005dc50>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/python_api.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/python_api.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/python_api.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/__pycache__/more.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/more.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/__pycache__/more.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/__pycache__/recipes.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/recipes.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/more_itertools/__pycache__/recipes.cpython-36.pyc'
+import 'more_itertools.recipes' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0013be0>
+import 'more_itertools.more' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0083588>
+import 'more_itertools' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d00832b0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/decimal.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/decimal.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/decimal.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/numbers.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/numbers.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/numbers.cpython-36.pyc'
+import 'numbers' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d00294e0>
+# extension module '_decimal' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_decimal' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so'
+import '_decimal' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38d001bdd8>
+import 'decimal' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0083208>
+import '_pytest.python_api' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d0077748>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/__pycache__/pytest.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pytest.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/__pycache__/pytest.cpython-36.pyc'
+import 'pytest' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38d016b080>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/terminal.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/terminal.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/terminal.cpython-36.pyc'
+import '_pytest.terminal' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd808d0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/unittest.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/unittest.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/unittest.cpython-36.pyc'
+import '_pytest.unittest' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd9cf60>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/capture.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/capture.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/capture.cpython-36.pyc'
+import '_pytest.capture' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfdaaa20>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/skipping.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/skipping.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/skipping.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__pycache__/evaluate.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/evaluate.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/mark/__pycache__/evaluate.cpython-36.pyc'
+import '_pytest.mark.evaluate' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd3efd0>
+import '_pytest.skipping' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd3e908>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/tmpdir.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/tmpdir.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/tmpdir.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/monkeypatch.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/monkeypatch.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/monkeypatch.cpython-36.pyc'
+import '_pytest.monkeypatch' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd49c18>
+import '_pytest.tmpdir' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd49588>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/pastebin.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/pastebin.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/pastebin.cpython-36.pyc'
+import '_pytest.pastebin' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd59080>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/helpconfig.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/helpconfig.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/helpconfig.cpython-36.pyc'
+import '_pytest.helpconfig' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd595c0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/nose.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/nose.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/nose.cpython-36.pyc'
+import '_pytest.nose' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd59cf8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/junitxml.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/junitxml.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/junitxml.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__pycache__/_xmlgen.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_xmlgen.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/__pycache__/_xmlgen.cpython-36.pyc'
+import 'py._xmlgen' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd725f8>
+import '_pytest.junitxml' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd65400>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/resultlog.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/resultlog.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/resultlog.cpython-36.pyc'
+import '_pytest.resultlog' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfcfb2b0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/doctest.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/doctest.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/doctest.cpython-36.pyc'
+import '_pytest.doctest' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd04c18>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/cacheprovider.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/cacheprovider.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/cacheprovider.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__pycache__/decoder.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/decoder.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__pycache__/decoder.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__pycache__/scanner.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/scanner.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__pycache__/scanner.cpython-36.pyc'
+# extension module '_json' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_json' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so'
+import '_json' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38cfd20748>
+import 'json.scanner' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd20438>
+import 'json.decoder' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd19c50>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__pycache__/encoder.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/encoder.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/json/__pycache__/encoder.cpython-36.pyc'
+import 'json.encoder' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd202b0>
+import 'json' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd198d0>
+import '_pytest.cacheprovider' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd0dd68>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/setuponly.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/setuponly.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/setuponly.cpython-36.pyc'
+import '_pytest.setuponly' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd2b978>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/setupplan.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/setupplan.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/setupplan.cpython-36.pyc'
+import '_pytest.setupplan' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd2bd68>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/warnings.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/warnings.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/warnings.cpython-36.pyc'
+import '_pytest.warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd2bf98>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/logging.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/logging.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/logging.cpython-36.pyc'
+import '_pytest.logging' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfd324e0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/_argcomplete.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/_argcomplete.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/_pytest/__pycache__/_argcomplete.cpython-36.pyc'
+import '_pytest._argcomplete' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfab8588>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/zipfile.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/zipfile.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/zipfile.cpython-36.pyc'
+# extension module 'binascii' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'binascii' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so'
+import 'binascii' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38cfa9b7b8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/bz2.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/bz2.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/bz2.cpython-36.pyc'
+# destroy bz2
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/lzma.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/lzma.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/lzma.cpython-36.pyc'
+# destroy lzma
+import 'zipfile' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfa7d898>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/plistlib.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/plistlib.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/plistlib.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/datetime.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/datetime.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/datetime.cpython-36.pyc'
+# extension module '_datetime' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_datetime' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so'
+import '_datetime' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38cf84ea90>
+import 'datetime' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf826f60>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/__pycache__/__init__.cpython-36.pyc'
+import 'xml' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf830198>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/parsers/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/parsers/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/parsers/__pycache__/__init__.cpython-36.pyc'
+import 'xml.parsers' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf830390>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/parsers/__pycache__/expat.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/parsers/expat.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/parsers/__pycache__/expat.cpython-36.pyc'
+# extension module 'pyexpat' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'pyexpat' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so'
+import 'pyexpat' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38cf830518>
+import 'xml.parsers.expat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf830400>
+import 'plistlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfaa51d0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/__init__.cpython-36.pyc'
+import 'email' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf84ee48>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/parser.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/parser.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/parser.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/feedparser.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/feedparser.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/feedparser.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/errors.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/errors.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/errors.cpython-36.pyc'
+import 'email.errors' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf39b1d0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/_policybase.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/_policybase.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/_policybase.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/header.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/header.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/header.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/quoprimime.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/quoprimime.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/quoprimime.cpython-36.pyc'
+import 'email.quoprimime' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3ac5f8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/base64mime.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/base64mime.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/base64mime.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/base64.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/base64.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/base64.cpython-36.pyc'
+import 'base64' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3b69b0>
+import 'email.base64mime' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3b6710>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/charset.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/charset.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/charset.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/encoders.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/encoders.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/encoders.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/quopri.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/quopri.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/quopri.cpython-36.pyc'
+import 'quopri' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3c66a0>
+import 'email.encoders' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3c62e8>
+import 'email.charset' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3bf748>
+import 'email.header' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3a54e0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/utils.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/utils.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/utils.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/socket.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/socket.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/socket.cpython-36.pyc'
+# extension module '_socket' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_socket' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so'
+import '_socket' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38cf358f98>
+import 'socket' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3a8710>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/urllib/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/urllib/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/urllib/__pycache__/__init__.cpython-36.pyc'
+import 'urllib' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3a89e8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/urllib/__pycache__/parse.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/urllib/parse.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/urllib/__pycache__/parse.cpython-36.pyc'
+import 'urllib.parse' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf358748>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/_parseaddr.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/_parseaddr.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/_parseaddr.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/calendar.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/calendar.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/calendar.cpython-36.pyc'
+import 'calendar' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf384a58>
+import 'email._parseaddr' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf378cf8>
+import 'email.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf3b6940>
+import 'email._policybase' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf39b278>
+import 'email.feedparser' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf8563c8>
+import 'email.parser' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf84eef0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/extern/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/extern/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/extern/__pycache__/__init__.cpython-36.pyc'
+import 'pkg_resources.extern' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf856eb8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/__init__.cpython-36.pyc'
+import 'pkg_resources._vendor' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf105588>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/six.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/six.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/six.cpython-36.pyc'
+import 'pkg_resources._vendor.six' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf105630>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/six.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/six.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/six.cpython-36.pyc'
+import 'pkg_resources._vendor.six' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf105e80>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/__pycache__/py31compat.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/py31compat.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/__pycache__/py31compat.cpython-36.pyc'
+import 'pkg_resources.py31compat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf1160b8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/appdirs.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/appdirs.cpython-36.pyc'
+import 'pkg_resources._vendor.appdirs' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf116278>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/__about__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__about__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/__about__.cpython-36.pyc'
+import 'pkg_resources._vendor.packaging.__about__' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf131668>
+import 'pkg_resources._vendor.packaging' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf116748>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/version.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/version.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/version.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/_structures.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_structures.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/_structures.cpython-36.pyc'
+import 'pkg_resources.extern.packaging._structures' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf0c5e48>
+import 'pkg_resources.extern.packaging.version' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf116160>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/specifiers.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/_compat.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_compat.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/_compat.cpython-36.pyc'
+import 'pkg_resources.extern.packaging._compat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf0dd4e0>
+import 'pkg_resources.extern.packaging.specifiers' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf0c5b70>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/requirements.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/requirements.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/requirements.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/pyparsing.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/pyparsing.cpython-36.pyc'
+import 'pkg_resources._vendor.pyparsing' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf847c18>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/markers.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/markers.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/markers.cpython-36.pyc'
+import 'pkg_resources.extern.packaging.markers' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cefee748>
+import 'pkg_resources.extern.packaging.requirements' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cf0cacf8>
+import 'pkg_resources' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfab8b70>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/message.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/message.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/message.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/uu.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/uu.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/uu.cpython-36.pyc'
+import 'uu' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef49b38>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/_encoded_words.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/_encoded_words.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/_encoded_words.cpython-36.pyc'
+import 'email._encoded_words' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef493c8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/iterators.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/iterators.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/email/__pycache__/iterators.cpython-36.pyc'
+import 'email.iterators' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cfa6da90>
+import 'email.message' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef7f2e8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/_settings.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/_settings.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/_settings.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/errors.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/errors.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/errors.cpython-36.pyc'
+import 'hypothesis.errors' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef172b0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/__init__.cpython-36.pyc'
+import 'hypothesis.internal' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef17470>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/compat.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/compat.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/compat.cpython-36.pyc'
+# extension module 'array' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'array' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so'
+import 'array' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38cef1e6a0>
+import 'hypothesis.internal.compat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef17518>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/__pycache__/__init__.cpython-36.pyc'
+import 'hypothesis.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef00f98>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/__pycache__/conventions.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/conventions.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/__pycache__/conventions.cpython-36.pyc'
+import 'hypothesis.utils.conventions' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef00a90>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/reflection.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/reflection.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/reflection.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/configuration.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/configuration.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/configuration.cpython-36.pyc'
+import 'hypothesis.configuration' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef08c18>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/vendor/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/vendor/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/vendor/__pycache__/__init__.cpython-36.pyc'
+import 'hypothesis.vendor' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef1e860>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/vendor/__pycache__/pretty.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/vendor/pretty.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/vendor/__pycache__/pretty.cpython-36.pyc'
+import 'hypothesis.vendor.pretty' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef1e908>
+import 'hypothesis.internal.reflection' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef00128>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/validation.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/validation.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/validation.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/coverage.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/coverage.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/coverage.cpython-36.pyc'
+import 'hypothesis.internal.coverage' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef2c8d0>
+import 'hypothesis.internal.validation' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef1ea20>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/__pycache__/dynamicvariables.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/dynamicvariables.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/utils/__pycache__/dynamicvariables.cpython-36.pyc'
+import 'hypothesis.utils.dynamicvariables' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef2cbe0>
+import 'hypothesis._settings' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef6d2e8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/version.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/version.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/version.cpython-36.pyc'
+import 'hypothesis.version' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecaee10>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/control.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/control.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/control.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/reporting.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/reporting.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/reporting.cpython-36.pyc'
+import 'hypothesis.reporting' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecb3320>
+import 'hypothesis.control' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecaed68>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/core.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/core.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/core.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/version.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/version.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/version.cpython-36.pyc'
+import 'coverage.version' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecc01d0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/control.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/control.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/control.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/env.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/env.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/env.cpython-36.pyc'
+import 'coverage.env' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ceccbcc0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/annotate.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/annotate.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/annotate.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/files.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/files.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/files.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/ntpath.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/ntpath.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/ntpath.cpython-36.pyc'
+import 'ntpath' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecd5f60>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/backward.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/backward.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/backward.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/configparser.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/configparser.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/configparser.cpython-36.pyc'
+import 'configparser' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cece4438>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/pickle.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/pickle.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/pickle.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_compat_pickle.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/_compat_pickle.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/_compat_pickle.cpython-36.pyc'
+import '_compat_pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cec9d550>
+# extension module '_pickle' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_pickle' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so'
+import '_pickle' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38cef08400>
+import 'pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cec84358>
+import 'coverage.backward' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecdec50>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/misc.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/misc.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/misc.cpython-36.pyc'
+import 'coverage.misc' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cece4208>
+import 'coverage.files' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecd52b0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/report.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/report.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/report.cpython-36.pyc'
+import 'coverage.report' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef08be0>
+import 'coverage.annotate' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ceccbcf8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/collector.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/collector.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/collector.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/debug.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/debug.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/debug.cpython-36.pyc'
+import 'coverage.debug' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ceef55f8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/pytracer.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/pytracer.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/pytracer.cpython-36.pyc'
+import 'coverage.pytracer' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef6d978>
+# extension module 'coverage.tracer' loaded from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/tracer.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'coverage.tracer' executed from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/tracer.cpython-36m-x86_64-linux-gnu.so'
+import 'coverage.tracer' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38cec9deb8>
+import 'coverage.collector' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ceccbf98>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/config.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/config.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/config.cpython-36.pyc'
+import 'coverage.config' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cec9dfd0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/data.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/data.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/data.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/optparse.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/optparse.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/optparse.cpython-36.pyc'
+import 'optparse' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cec475c0>
+import 'coverage.data' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cec3e6d8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/html.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/html.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/html.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/results.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/results.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/results.cpython-36.pyc'
+import 'coverage.results' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7cf4a8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/templite.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/templite.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/templite.cpython-36.pyc'
+import 'coverage.templite' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7cfe80>
+import 'coverage.html' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cec529e8>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/plugin.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/plugin.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/plugin.cpython-36.pyc'
+import 'coverage.plugin' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7db748>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/plugin_support.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/plugin_support.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/plugin_support.cpython-36.pyc'
+import 'coverage.plugin_support' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7dbfd0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/python.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/python.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/python.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/parser.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/parser.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/parser.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/bytecode.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/bytecode.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/bytecode.cpython-36.pyc'
+import 'coverage.bytecode' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce801400>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/phystokens.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/phystokens.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/phystokens.cpython-36.pyc'
+import 'coverage.phystokens' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce801550>
+import 'coverage.parser' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7f0630>
+import 'coverage.python' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7e5b00>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/summary.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/summary.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/summary.cpython-36.pyc'
+import 'coverage.summary' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7f8fd0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/xmlreport.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/xmlreport.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/xmlreport.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/domreg.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/domreg.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/domreg.cpython-36.pyc'
+import 'xml.dom.domreg' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce798390>
+import 'xml.dom' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce78f908>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/minidom.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/minidom.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/minidom.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/minicompat.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/minicompat.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/minicompat.cpython-36.pyc'
+import 'xml.dom.minicompat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7b8eb8>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/xmlbuilder.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/xmlbuilder.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/xmlbuilder.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/NodeFilter.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/NodeFilter.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/xml/dom/__pycache__/NodeFilter.cpython-36.pyc'
+import 'xml.dom.NodeFilter' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce749da0>
+import 'xml.dom.xmlbuilder' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7c25f8>
+import 'xml.dom.minidom' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce78f9e8>
+import 'coverage.xmlreport' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce801f28>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/multiproc.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/multiproc.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/coverage/__pycache__/multiproc.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__init__.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__pycache__/context.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/context.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__pycache__/context.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__pycache__/process.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/process.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__pycache__/process.cpython-36.pyc'
+import 'multiprocessing.process' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce76d1d0>
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__pycache__/reduction.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/reduction.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/multiprocessing/__pycache__/reduction.cpython-36.pyc'
+import 'multiprocessing.reduction' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce76da58>
+import 'multiprocessing.context' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce75a780>
+import 'multiprocessing' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce75a550>
+import 'coverage.multiproc' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7aa6a0>
+import 'coverage.control' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecc0630>
+import 'coverage' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecb7f28>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/strategies.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/strategies.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/strategies.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/fractions.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/fractions.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/fractions.cpython-36.pyc'
+import 'fractions' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce7131d0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/cache.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/cache.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/cache.cpython-36.pyc'
+import 'hypothesis.internal.cache' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce71aa20>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/__pycache__/__init__.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/__pycache__/strategies.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/strategies.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/__pycache__/strategies.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/__init__.cpython-36.pyc'
+import 'hypothesis.internal.conjecture' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce733320>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/utils.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/utils.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/utils.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/floats.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/floats.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/floats.cpython-36.pyc'
+import 'hypothesis.internal.floats' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce733cf8>
+import 'hypothesis.internal.conjecture.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce733390>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/lazyformat.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/lazyformat.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/lazyformat.cpython-36.pyc'
+import 'hypothesis.internal.lazyformat' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce733ef0>
+import 'hypothesis.searchstrategy.strategies' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce727780>
+import 'hypothesis.searchstrategy' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce727668>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/charmap.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/charmap.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/charmap.cpython-36.pyc'
+# /home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/gzip.cpython-36.pyc matches /home/joe/.pyenv/versions/3.6.5/lib/python3.6/gzip.py
+# code object from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/__pycache__/gzip.cpython-36.pyc'
+import 'gzip' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce72b9b0>
+# extension module 'unicodedata' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'unicodedata' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so'
+import 'unicodedata' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38ce6cbb00>
+import 'hypothesis.internal.charmap' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce72b048>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/cathetus.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/cathetus.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/cathetus.cpython-36.pyc'
+import 'hypothesis.internal.cathetus' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce6cbc50>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/renaming.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/renaming.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/renaming.cpython-36.pyc'
+import 'hypothesis.internal.renaming' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce6cbb70>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/__pycache__/lazy.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/lazy.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/searchstrategy/__pycache__/lazy.cpython-36.pyc'
+import 'hypothesis.searchstrategy.lazy' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce6cbf98>
+import 'hypothesis.strategies' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecdef28>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/executors.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/executors.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/executors.cpython-36.pyc'
+import 'hypothesis.executors' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce3aef98>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/statistics.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/statistics.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/__pycache__/statistics.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/data.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/data.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/data.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/escalation.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/escalation.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/escalation.cpython-36.pyc'
+import 'hypothesis.internal.escalation' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce3be048>
+import 'hypothesis.internal.conjecture.data' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce3b3860>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/engine.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/engine.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/engine.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/healthcheck.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/healthcheck.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/healthcheck.cpython-36.pyc'
+import 'hypothesis.internal.healthcheck' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce3d3fd0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/minimizer.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/minimizer.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/minimizer.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/floats.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/floats.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/conjecture/__pycache__/floats.cpython-36.pyc'============================= test session starts ==============================
+platform linux -- Python 3.6.5, pytest-3.5.1, py-1.5.3, pluggy-0.6.0 -- /home/joe/.pyenv/versions/apm/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/joe/learn/hypothesis, inifile:
+plugins: hypothesis-3.56.5
+collecting ... collected 1 item
+
+test_ec.py::test_decode_inverts_encode PASSED                            [100%]
+
+=========================== 1 passed in 0.35 seconds ===========================
+
+import 'hypothesis.internal.conjecture.floats' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce3e19e8>
+import 'hypothesis.internal.conjecture.minimizer' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce3e1048>
+import 'hypothesis.internal.conjecture.engine' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce3be828>
+import 'hypothesis.statistics' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce3b32b0>
+import 'hypothesis.core' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cecb37f0>
+import 'hypothesis' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef008d0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/extra/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/extra/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/extra/__pycache__/__init__.cpython-36.pyc'
+import 'hypothesis.extra' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef00390>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/extra/__pycache__/pytestplugin.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/extra/pytestplugin.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/extra/__pycache__/pytestplugin.cpython-36.pyc'
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/detection.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/detection.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/hypothesis/internal/__pycache__/detection.cpython-36.pyc'
+import 'hypothesis.internal.detection' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce376240>
+import 'hypothesis.extra.pytestplugin' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cef006a0>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/__pycache__/__init__.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/__init__.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/__pycache__/__init__.cpython-36.pyc'
+import 'py._io' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce38bf60>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/__pycache__/terminalwriter.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/terminalwriter.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/__pycache__/terminalwriter.cpython-36.pyc'
+# extension module 'termios' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'termios' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so'
+import 'termios' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38ce39a128>
+# extension module 'fcntl' loaded from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'fcntl' executed from '/home/joe/.pyenv/versions/3.6.5/lib/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so'
+import 'fcntl' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7f38ce39f668>
+import 'py._io.terminalwriter' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38ce38bf28>
+# /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/__pycache__/capture.cpython-36.pyc matches /home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/capture.py
+# code object from '/home/joe/.pyenv/versions/apm/lib/python3.6/site-packages/py/_io/__pycache__/capture.cpython-36.pyc'
+import 'py._io.capture' # <_frozen_importlib_external.SourceFileLoader object at 0x7f38cdf492b0>
+# clear builtins._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.__interactivehook__
+# clear sys.flags
+# clear sys.float_info
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup[2] removing builtins
+# cleanup[2] removing sys
+# cleanup[2] removing _frozen_importlib
+# cleanup[2] removing _imp
+# cleanup[2] removing _warnings
+# cleanup[2] removing _thread
+# cleanup[2] removing _weakref
+# cleanup[2] removing _frozen_importlib_external
+# cleanup[2] removing _io
+# cleanup[2] removing marshal
+# cleanup[2] removing posix
+# cleanup[2] removing zipimport
+# cleanup[2] removing encodings
+# cleanup[2] removing codecs
+# cleanup[2] removing _codecs
+# cleanup[2] removing encodings.aliases
+# cleanup[2] removing encodings.utf_8
+# cleanup[2] removing _signal
+# cleanup[2] removing __main__
+# cleanup[2] removing encodings.latin_1
+# cleanup[2] removing io
+# cleanup[2] removing abc
+# cleanup[2] removing _weakrefset
+# destroy _weakrefset
+# cleanup[2] removing _bootlocale
+# destroy _bootlocale
+# cleanup[2] removing _locale
+# cleanup[2] removing site
+# destroy site
+# cleanup[2] removing os
+# cleanup[2] removing errno
+# cleanup[2] removing stat
+# cleanup[2] removing _stat
+# cleanup[2] removing posixpath
+# cleanup[2] removing genericpath
+# cleanup[2] removing os.path
+# cleanup[2] removing _collections_abc
+# cleanup[2] removing _sitebuiltins
+# cleanup[2] removing sysconfig
+# destroy sysconfig
+# cleanup[2] removing _sysconfigdata_m_linux_x86_64-linux-gnu
+# destroy _sysconfigdata_m_linux_x86_64-linux-gnu
+# cleanup[2] removing runpy
+# cleanup[2] removing importlib
+# cleanup[2] removing importlib._bootstrap
+# cleanup[2] removing importlib._bootstrap_external
+# cleanup[2] removing types
+# cleanup[2] removing functools
+# cleanup[2] removing _functools
+# cleanup[2] removing collections
+# cleanup[2] removing operator
+# cleanup[2] removing _operator
+# cleanup[2] removing keyword
+# cleanup[2] removing heapq
+# cleanup[2] removing _heapq
+# cleanup[2] removing itertools
+# cleanup[2] removing reprlib
+# cleanup[2] removing _collections
+# cleanup[2] removing weakref
+# cleanup[2] removing collections.abc
+# cleanup[2] removing warnings
+# cleanup[2] removing importlib.machinery
+# cleanup[2] removing importlib.util
+# cleanup[2] removing importlib.abc
+# cleanup[2] removing contextlib
+# cleanup[2] removing pkgutil
+# cleanup[2] removing _pytest
+# cleanup[2] removing _pytest._version
+# cleanup[2] removing _pytest.config
+# cleanup[2] removing __future__
+# cleanup[2] removing argparse
+# cleanup[2] removing copy
+# cleanup[2] removing copyreg
+# cleanup[2] removing re
+# cleanup[2] removing enum
+# cleanup[2] removing sre_compile
+# cleanup[2] removing _sre
+# cleanup[2] removing sre_parse
+# cleanup[2] removing sre_constants
+# cleanup[2] removing textwrap
+# cleanup[2] removing gettext
+# destroy gettext
+# cleanup[2] removing locale
+# cleanup[2] removing struct
+# cleanup[2] removing _struct
+# cleanup[2] removing shlex
+# cleanup[2] removing traceback
+# cleanup[2] removing linecache
+# cleanup[2] removing tokenize
+# cleanup[2] removing token
+# cleanup[2] removing six
+# cleanup[2] removing py
+# cleanup[2] removing py._error
+# destroy py._error
+# cleanup[2] removing py.error
+# cleanup[2] removing py._vendored_packages
+# destroy py._vendored_packages
+# cleanup[2] removing py._vendored_packages.apipkg
+# cleanup[2] removing py.test
+# cleanup[2] removing py.process
+# cleanup[2] removing py.apipkg
+# cleanup[2] removing py.iniconfig
+# cleanup[2] removing py.path
+# cleanup[2] removing py.code
+# cleanup[2] removing py.builtin
+# cleanup[2] removing py.io
+# cleanup[2] removing py.xml
+# cleanup[2] removing py.log
+# cleanup[2] removing _pytest.outcomes
+# cleanup[2] removing _pytest._code
+# cleanup[2] removing _pytest._code.code
+# cleanup[2] removing inspect
+# cleanup[2] removing ast
+# cleanup[2] removing _ast
+# cleanup[2] removing dis
+# cleanup[2] removing opcode
+# destroy opcode
+# cleanup[2] removing _opcode
+# cleanup[2] removing attr
+# cleanup[2] removing attr.converters
+# cleanup[2] removing attr.exceptions
+# cleanup[2] removing attr.filters
+# cleanup[2] removing attr._compat
+# cleanup[2] removing platform
+# cleanup[2] removing subprocess
+# cleanup[2] removing time
+# cleanup[2] removing signal
+# cleanup[2] removing _posixsubprocess
+# cleanup[2] removing select
+# cleanup[2] removing selectors
+# cleanup[2] removing math
+# cleanup[2] removing threading
+# cleanup[2] removing ctypes
+# cleanup[2] removing _ctypes
+# cleanup[2] removing ctypes._endian
+# cleanup[2] removing attr._make
+# cleanup[2] removing hashlib
+# cleanup[2] removing _hashlib
+# cleanup[2] removing _blake2
+# cleanup[2] removing _sha3
+# cleanup[2] removing attr._config
+# cleanup[2] removing attr.validators
+# cleanup[2] removing attr._funcs
+# cleanup[2] removing _pytest.compat
+# cleanup[2] removing _pytest._code.source
+# cleanup[2] removing bisect
+# cleanup[2] removing _bisect
+# cleanup[2] removing _pytest.hookspec
+# cleanup[2] removing pluggy
+# cleanup[2] removing pluggy.callers
+# cleanup[2] removing _pytest.assertion
+# cleanup[2] removing _pytest.assertion.util
+# cleanup[2] removing pprint
+# cleanup[2] removing _pytest.assertion.rewrite
+# cleanup[2] removing imp
+# cleanup[2] removing _pytest.assertion.truncate
+# cleanup[2] removing _pytest.fixtures
+# cleanup[2] removing py._code
+# cleanup[2] removing py._code.code
+# cleanup[2] removing py._builtin
+# cleanup[2] removing _pytest.nodes
+# cleanup[2] removing _pytest.mark
+# cleanup[2] removing _pytest.mark.structures
+# cleanup[2] removing six.moves
+# cleanup[2] removing _pytest.deprecated
+# cleanup[2] removing _pytest.mark.legacy
+# cleanup[2] removing py._path
+# cleanup[2] removing py._path.local
+# cleanup[2] removing atexit
+# cleanup[2] removing uuid
+# cleanup[2] removing ctypes.util
+# cleanup[2] removing shutil
+# cleanup[2] removing fnmatch
+# cleanup[2] removing zlib
+# cleanup[2] removing _compression
+# cleanup[2] removing pwd
+# cleanup[2] removing grp
+# cleanup[2] removing tempfile
+# cleanup[2] removing random
+# cleanup[2] removing _random
+# cleanup[2] removing py._path.common
+# cleanup[2] removing _pytest.freeze_support
+# cleanup[2] removing _pytest.debugging
+# cleanup[2] removing pdb
+# cleanup[2] removing cmd
+# cleanup[2] removing string
+# cleanup[2] removing _string
+# cleanup[2] removing bdb
+# cleanup[2] removing code
+# cleanup[2] removing codeop
+# destroy codeop
+# cleanup[2] removing glob
+# cleanup[2] removing doctest
+# destroy doctest
+# cleanup[2] removing difflib
+# cleanup[2] removing unittest
+# cleanup[2] removing unittest.result
+# cleanup[2] removing unittest.util
+# cleanup[2] removing unittest.case
+# cleanup[2] removing logging
+# cleanup[2] removing unittest.suite
+# cleanup[2] removing unittest.loader
+# cleanup[2] removing unittest.main
+# destroy unittest.main
+# cleanup[2] removing unittest.runner
+# cleanup[2] removing unittest.signals
+# cleanup[2] removing _pytest.recwarn
+# cleanup[2] removing _pytest.main
+# cleanup[2] removing _pytest.runner
+# cleanup[2] removing _pytest.python
+# cleanup[2] removing _pytest.python_api
+# cleanup[2] removing more_itertools
+# destroy more_itertools
+# cleanup[2] removing more_itertools.more
+# destroy more_itertools.more
+# cleanup[2] removing more_itertools.recipes
+# destroy more_itertools.recipes
+# cleanup[2] removing decimal
+# cleanup[2] removing numbers
+# cleanup[2] removing _decimal
+# cleanup[2] removing pytest
+# cleanup[2] removing _pytest.terminal
+# cleanup[2] removing _pytest.unittest
+# cleanup[2] removing _pytest.capture
+# cleanup[2] removing _pytest.skipping
+# cleanup[2] removing _pytest.mark.evaluate
+# cleanup[2] removing _pytest.tmpdir
+# cleanup[2] removing _pytest.monkeypatch
+# cleanup[2] removing _pytest.pastebin
+# cleanup[2] removing _pytest.helpconfig
+# cleanup[2] removing _pytest.nose
+# cleanup[2] removing _pytest.junitxml
+# cleanup[2] removing py._xmlgen
+# cleanup[2] removing _pytest.resultlog
+# cleanup[2] removing _pytest.doctest
+# cleanup[2] removing _pytest.cacheprovider
+# cleanup[2] removing json
+# cleanup[2] removing json.decoder
+# cleanup[2] removing json.scanner
+# cleanup[2] removing _json
+# cleanup[2] removing json.encoder
+# cleanup[2] removing _pytest.setuponly
+# cleanup[2] removing _pytest.setupplan
+# cleanup[2] removing _pytest.warnings
+# cleanup[2] removing _pytest.logging
+# cleanup[2] removing _pytest._argcomplete
+# cleanup[2] removing pkg_resources
+# destroy pkg_resources
+# cleanup[2] removing zipfile
+# cleanup[2] removing binascii
+# cleanup[2] removing plistlib
+# cleanup[2] removing datetime
+# cleanup[2] removing _datetime
+# cleanup[2] removing xml
+# cleanup[2] removing xml.parsers
+# cleanup[2] removing xml.parsers.expat
+# cleanup[2] removing pyexpat.errors
+# cleanup[2] removing pyexpat.model
+# cleanup[2] removing pyexpat
+# cleanup[2] removing xml.parsers.expat.model
+# cleanup[2] removing xml.parsers.expat.errors
+# cleanup[2] removing email
+# cleanup[2] removing email.parser
+# cleanup[2] removing email.feedparser
+# cleanup[2] removing email.errors
+# cleanup[2] removing email._policybase
+# cleanup[2] removing email.header
+# cleanup[2] removing email.quoprimime
+# cleanup[2] removing email.base64mime
+# cleanup[2] removing base64
+# cleanup[2] removing email.charset
+# cleanup[2] removing email.encoders
+# cleanup[2] removing quopri
+# cleanup[2] removing email.utils
+# cleanup[2] removing socket
+# cleanup[2] removing _socket
+# cleanup[2] removing urllib
+# cleanup[2] removing urllib.parse
+# cleanup[2] removing email._parseaddr
+# cleanup[2] removing calendar
+# cleanup[2] removing pkg_resources.extern
+# cleanup[2] removing pkg_resources._vendor
+# cleanup[2] removing pkg_resources.extern.six
+# cleanup[2] removing pkg_resources._vendor.six
+# cleanup[2] removing pkg_resources.extern.six.moves
+# cleanup[2] removing pkg_resources._vendor.six.moves
+# cleanup[2] removing pkg_resources.py31compat
+# cleanup[2] removing pkg_resources.extern.appdirs
+# cleanup[2] removing pkg_resources._vendor.packaging.__about__
+# cleanup[2] removing pkg_resources.extern.packaging
+# cleanup[2] removing pkg_resources.extern.packaging.version
+# cleanup[2] removing pkg_resources.extern.packaging._structures
+# cleanup[2] removing pkg_resources.extern.packaging.specifiers
+# cleanup[2] removing pkg_resources.extern.packaging._compat
+# cleanup[2] removing pkg_resources.extern.packaging.requirements
+# cleanup[2] removing pkg_resources.extern.pyparsing
+# cleanup[2] removing pkg_resources.extern.six.moves.urllib
+# cleanup[2] removing pkg_resources.extern.packaging.markers
+# cleanup[2] removing email.message
+# cleanup[2] removing uu
+# cleanup[2] removing email._encoded_words
+# cleanup[2] removing email.iterators
+# cleanup[2] removing hypothesis
+# cleanup[2] removing hypothesis._settings
+# cleanup[2] removing hypothesis.errors
+# cleanup[2] removing hypothesis.internal
+# cleanup[2] removing hypothesis.internal.compat
+# cleanup[2] removing array
+# cleanup[2] removing hypothesis.utils
+# cleanup[2] removing hypothesis.utils.conventions
+# cleanup[2] removing hypothesis.internal.reflection
+# cleanup[2] removing hypothesis.configuration
+# cleanup[2] removing hypothesis.vendor
+# cleanup[2] removing hypothesis.vendor.pretty
+# cleanup[2] removing hypothesis.internal.validation
+# cleanup[2] removing hypothesis.internal.coverage
+# cleanup[2] removing hypothesis.utils.dynamicvariables
+# cleanup[2] removing hypothesis.version
+# cleanup[2] removing hypothesis.control
+# cleanup[2] removing hypothesis.reporting
+# cleanup[2] removing hypothesis.core
+# cleanup[2] removing coverage
+# cleanup[2] removing coverage.version
+# cleanup[2] removing coverage.control
+# cleanup[2] removing coverage.env
+# cleanup[2] removing coverage.annotate
+# cleanup[2] removing coverage.files
+# cleanup[2] removing ntpath
+# cleanup[2] removing coverage.backward
+# cleanup[2] removing configparser
+# cleanup[2] removing pickle
+# cleanup[2] removing _compat_pickle
+# cleanup[2] removing _pickle
+# cleanup[2] removing coverage.misc
+# cleanup[2] removing coverage.report
+# cleanup[2] removing coverage.collector
+# cleanup[2] removing coverage.debug
+# cleanup[2] removing coverage.pytracer
+# cleanup[2] removing coverage.tracer
+# cleanup[2] removing coverage.config
+# cleanup[2] removing coverage.data
+# cleanup[2] removing optparse
+# cleanup[2] removing coverage.html
+# cleanup[2] removing coverage.results
+# cleanup[2] removing coverage.templite
+# cleanup[2] removing coverage.plugin
+# cleanup[2] removing coverage.plugin_support
+# cleanup[2] removing coverage.python
+# cleanup[2] removing coverage.parser
+# cleanup[2] removing coverage.bytecode
+# cleanup[2] removing coverage.phystokens
+# cleanup[2] removing coverage.summary
+# cleanup[2] removing coverage.xmlreport
+# cleanup[2] removing xml.dom
+# cleanup[2] removing xml.dom.domreg
+# cleanup[2] removing xml.dom.minidom
+# cleanup[2] removing xml.dom.minicompat
+# cleanup[2] removing xml.dom.xmlbuilder
+# cleanup[2] removing xml.dom.NodeFilter
+# cleanup[2] removing coverage.multiproc
+# cleanup[2] removing multiprocessing
+# cleanup[2] removing multiprocessing.context
+# cleanup[2] removing multiprocessing.process
+# cleanup[2] removing multiprocessing.reduction
+# cleanup[2] removing __mp_main__
+# destroy __main__
+# cleanup[2] removing hypothesis.strategies
+# cleanup[2] removing fractions
+# destroy fractions
+# cleanup[2] removing hypothesis.internal.cache
+# cleanup[2] removing hypothesis.searchstrategy
+# cleanup[2] removing hypothesis.searchstrategy.strategies
+# cleanup[2] removing hypothesis.internal.conjecture
+# cleanup[2] removing hypothesis.internal.conjecture.utils
+# cleanup[2] removing hypothesis.internal.floats
+# cleanup[2] removing hypothesis.internal.lazyformat
+# cleanup[2] removing hypothesis.internal.charmap
+# cleanup[2] removing gzip
+# cleanup[2] removing unicodedata
+# cleanup[2] removing hypothesis.internal.cathetus
+# cleanup[2] removing hypothesis.internal.renaming
+# cleanup[2] removing hypothesis.searchstrategy.lazy
+# cleanup[2] removing hypothesis.executors
+# cleanup[2] removing hypothesis.statistics
+# cleanup[2] removing hypothesis.internal.conjecture.data
+# cleanup[2] removing hypothesis.internal.escalation
+# cleanup[2] removing hypothesis.internal.conjecture.engine
+# cleanup[2] removing hypothesis.internal.healthcheck
+# cleanup[2] removing hypothesis.internal.conjecture.minimizer
+# cleanup[2] removing hypothesis.internal.conjecture.floats
+# cleanup[2] removing hypothesis.extra
+# cleanup[2] removing hypothesis.extra.pytestplugin
+# cleanup[2] removing hypothesis.internal.detection
+# cleanup[2] removing py._io
+# cleanup[2] removing py._io.terminalwriter
+# cleanup[2] removing termios
+# cleanup[2] removing fcntl
+# cleanup[2] removing test_ec
+# cleanup[2] removing ec
+# destroy ec
+# cleanup[2] removing hypothesis.database
+# cleanup[2] removing py._io.capture
+# cleanup[2] removing hypothesis.searchstrategy.misc
+# cleanup[2] removing hypothesis.types
+# cleanup[2] removing hypothesis.searchstrategy.collections
+# cleanup[2] removing hypothesis.searchstrategy.strings
+# cleanup[2] removing hypothesis.internal.intervalsets
+# destroy _datetime
+# destroy _sha3
+# destroy _blake2
+# destroy _ast
+# destroy termios
+# destroy fcntl
+# cleanup[3] wiping _frozen_importlib
+# cleanup[3] wiping _imp
+# cleanup[3] wiping _warnings
+# cleanup[3] wiping _thread
+# cleanup[3] wiping _weakref
+# cleanup[3] wiping _frozen_importlib_external
+# cleanup[3] wiping _io
+# cleanup[3] wiping marshal
+# cleanup[3] wiping posix
+# cleanup[3] wiping zipimport
+# cleanup[3] wiping encodings
+# destroy encodings.aliases
+# destroy encodings.utf_8
+# destroy encodings.latin_1
+# cleanup[3] wiping codecs
+# cleanup[3] wiping _codecs
+# cleanup[3] wiping _signal
+# cleanup[3] wiping io
+# cleanup[3] wiping abc
+# cleanup[3] wiping _locale
+# cleanup[3] wiping os
+# cleanup[3] wiping errno
+# cleanup[3] wiping stat
+# cleanup[3] wiping _stat
+# cleanup[3] wiping posixpath
+# cleanup[3] wiping genericpath
+# cleanup[3] wiping os.path
+# cleanup[3] wiping _collections_abc
+# cleanup[3] wiping _sitebuiltins
+# cleanup[3] wiping runpy
+# cleanup[3] wiping importlib
+# cleanup[3] wiping importlib._bootstrap
+# cleanup[3] wiping importlib._bootstrap_external
+# cleanup[3] wiping types
+# cleanup[3] wiping functools
+# cleanup[3] wiping _functools
+# cleanup[3] wiping collections
+# destroy collections.abc
+# cleanup[3] wiping operator
+# cleanup[3] wiping _operator
+# cleanup[3] wiping keyword
+# cleanup[3] wiping heapq
+# cleanup[3] wiping _heapq
+# destroy _heapq
+# cleanup[3] wiping itertools
+# cleanup[3] wiping reprlib
+# cleanup[3] wiping _collections
+# destroy _collections
+# cleanup[3] wiping weakref
+# cleanup[3] wiping warnings
+# cleanup[3] wiping importlib.machinery
+# cleanup[3] wiping importlib.util
+# destroy importlib.abc
+# cleanup[3] wiping contextlib
+# destroy _collections_abc
+# cleanup[3] wiping pkgutil
+# cleanup[3] wiping _pytest
+# destroy _pytest._version
+# destroy _pytest._code
+# destroy _pytest._code.code
+# destroy _pytest._code.source
+# destroy _pytest._argcomplete
+# destroy _pytest.outcomes
+# destroy _pytest.config
+# destroy _pytest.python_api
+# cleanup[3] wiping __future__
+# cleanup[3] wiping argparse
+# cleanup[3] wiping copy
+# cleanup[3] wiping copyreg
+# cleanup[3] wiping re
+# destroy sre_compile
+# cleanup[3] wiping enum
+# cleanup[3] wiping _sre
+# cleanup[3] wiping sre_parse
+# cleanup[3] wiping sre_constants
+# cleanup[3] wiping textwrap
+# cleanup[3] wiping locale
+# destroy _locale
+# cleanup[3] wiping struct
+# cleanup[3] wiping _struct
+# cleanup[3] wiping shlex
+# cleanup[3] wiping traceback
+# cleanup[3] wiping linecache
+# cleanup[3] wiping tokenize
+# destroy io
+# cleanup[3] wiping token
+# cleanup[3] wiping six
+# cleanup[3] wiping py
+# destroy py._vendored_packages.apipkg
+# destroy py._code
+# destroy py._code.code
+# destroy py._builtin
+# destroy py._path
+# destroy py._path.local
+# destroy py._xmlgen
+# destroy py._io
+# destroy py._io.terminalwriter
+# destroy py._io.capture
+# destroy py.test
+# cleanup[3] wiping py.error
+# cleanup[3] wiping inspect
+# cleanup[3] wiping ast
+# cleanup[3] wiping dis
+# cleanup[3] wiping _opcode
+# destroy _opcode
+# cleanup[3] wiping attr
+# destroy attr._compat
+# destroy attr._make
+# destroy attr._funcs
+# destroy attr.converters
+# destroy attr.exceptions
+# destroy attr.filters
+# destroy attr.validators
+# cleanup[3] wiping platform
+# cleanup[3] wiping subprocess
+# cleanup[3] wiping time
+# cleanup[3] wiping signal
+# destroy _signal
+# cleanup[3] wiping _posixsubprocess
+# destroy _posixsubprocess
+# cleanup[3] wiping select
+# cleanup[3] wiping selectors
+# cleanup[3] wiping math
+# cleanup[3] wiping threading
+# cleanup[3] wiping ctypes
+# destroy ctypes._endian
+# destroy ctypes.util
+# cleanup[3] wiping _ctypes
+# cleanup[3] wiping hashlib
+# cleanup[3] wiping _hashlib
+# cleanup[3] wiping attr._config
+# cleanup[3] wiping _pytest.compat
+# cleanup[3] wiping bisect
+# cleanup[3] wiping _bisect
+# cleanup[3] wiping _pytest.hookspec
+# cleanup[3] wiping pluggy
+# destroy pluggy.callers
+# cleanup[3] wiping _pytest.assertion
+# destroy _pytest.assertion.truncate
+# cleanup[3] wiping _pytest.assertion.util
+# cleanup[3] wiping pprint
+# cleanup[3] wiping _pytest.assertion.rewrite
+# destroy imp
+# destroy marshal
+# destroy _pytest.assertion.util
+# cleanup[3] wiping _pytest.fixtures
+# cleanup[3] wiping _pytest.nodes
+# cleanup[3] wiping _pytest.mark
+# destroy _pytest.mark.structures
+# destroy _pytest.mark.legacy
+# destroy _pytest.mark.evaluate
+# cleanup[3] wiping six.moves
+# cleanup[3] wiping _pytest.deprecated
+# cleanup[3] wiping atexit
+# cleanup[3] wiping uuid
+# destroy ctypes
+# cleanup[3] wiping shutil
+# cleanup[3] wiping fnmatch
+# cleanup[3] wiping zlib
+# cleanup[3] wiping _compression
+# cleanup[3] wiping pwd
+# destroy pwd
+# cleanup[3] wiping grp
+# destroy grp
+# cleanup[3] wiping tempfile
+# cleanup[3] wiping random
+# destroy bisect
+# destroy _random
+# cleanup[3] wiping py._path.common
+# cleanup[3] wiping _pytest.freeze_support
+# cleanup[3] wiping _pytest.debugging
+# cleanup[3] wiping pdb
+# destroy cmd
+# destroy code
+# cleanup[3] wiping string
+# cleanup[3] wiping _string
+# destroy _string
+# cleanup[3] wiping bdb
+# cleanup[3] wiping glob
+# cleanup[3] wiping difflib
+# cleanup[3] wiping unittest
+# destroy unittest.signals
+# cleanup[3] wiping unittest.result
+# cleanup[3] wiping unittest.util
+# cleanup[3] wiping unittest.case
+# cleanup[3] wiping logging
+# destroy _weakref
+# cleanup[3] wiping unittest.suite
+# cleanup[3] wiping unittest.loader
+# destroy unittest.case
+# destroy unittest.suite
+# destroy unittest.util
+# cleanup[3] wiping unittest.runner
+# destroy unittest.result
+# cleanup[3] wiping _pytest.recwarn
+# cleanup[3] wiping _pytest.main
+# cleanup[3] wiping _pytest.runner
+# destroy bdb
+# cleanup[3] wiping _pytest.python
+# destroy _pytest.deprecated
+# cleanup[3] wiping decimal
+# cleanup[3] wiping numbers
+# cleanup[3] wiping _decimal
+# cleanup[3] wiping pytest
+# destroy pytest.collect
+# cleanup[3] wiping _pytest.terminal
+# destroy pluggy
+# cleanup[3] wiping _pytest.unittest
+# cleanup[3] wiping _pytest.capture
+# cleanup[3] wiping _pytest.skipping
+# cleanup[3] wiping _pytest.tmpdir
+# cleanup[3] wiping _pytest.monkeypatch
+# cleanup[3] wiping _pytest.pastebin
+# cleanup[3] wiping _pytest.helpconfig
+# cleanup[3] wiping _pytest.nose
+# cleanup[3] wiping _pytest.junitxml
+# destroy _pytest.nodes
+# cleanup[3] wiping _pytest.resultlog
+# cleanup[3] wiping _pytest.doctest
+# cleanup[3] wiping _pytest.cacheprovider
+# cleanup[3] wiping json
+# destroy json.decoder
+# destroy json.encoder
+# cleanup[3] wiping json.scanner
+# cleanup[3] wiping _json
+# cleanup[3] wiping _pytest.setuponly
+# cleanup[3] wiping _pytest.setupplan
+# cleanup[3] wiping _pytest.warnings
+# destroy _pytest.compat
+# cleanup[3] wiping _pytest.logging
+# destroy logging
+# cleanup[3] wiping zipfile
+# cleanup[3] wiping binascii
+# cleanup[3] wiping plistlib
+# cleanup[3] wiping datetime
+# cleanup[3] wiping xml
+# destroy xml.parsers
+# destroy xml.parsers.expat
+# destroy xml.dom
+# cleanup[3] wiping pyexpat.errors
+# cleanup[3] wiping pyexpat.model
+# cleanup[3] wiping pyexpat
+# destroy pyexpat.errors
+# destroy pyexpat.model
+# destroy pyexpat
+# cleanup[3] wiping email
+# destroy email._parseaddr
+# destroy email._policybase
+# destroy email._encoded_words
+# destroy email.quoprimime
+# destroy email.base64mime
+# destroy email.encoders
+# destroy email.feedparser
+# destroy email.parser
+# destroy email.iterators
+# destroy email.message
+# cleanup[3] wiping email.errors
+# cleanup[3] wiping email.header
+# cleanup[3] wiping base64
+# cleanup[3] wiping email.charset
+# cleanup[3] wiping quopri
+# cleanup[3] wiping email.utils
+# destroy urllib
+# destroy urllib.parse
+# cleanup[3] wiping socket
+# destroy selectors
+# cleanup[3] wiping _socket
+# destroy _socket
+# cleanup[3] wiping calendar
+# cleanup[3] wiping pkg_resources.extern
+# cleanup[3] wiping pkg_resources._vendor
+# destroy pkg_resources._vendor.six
+# destroy pkg_resources._vendor.pyparsing
+# cleanup[3] wiping pkg_resources.extern.six
+# destroy pkg_resources._vendor.six.moves.urllib
+# destroy pkg_resources._vendor.six.moves
+# cleanup[3] wiping pkg_resources.extern.six.moves
+# cleanup[3] wiping pkg_resources._vendor.six.moves
+# cleanup[3] wiping pkg_resources.py31compat
+# cleanup[3] wiping pkg_resources.extern.appdirs
+# cleanup[3] wiping pkg_resources._vendor.packaging.__about__
+# cleanup[3] wiping pkg_resources.extern.packaging
+# destroy pkg_resources.extern.packaging._structures
+# destroy pkg_resources.extern.packaging._compat
+# destroy pkg_resources._vendor.packaging.__about__
+# destroy pkg_resources.extern.packaging.version
+# destroy pkg_resources.extern.packaging.specifiers
+# destroy pkg_resources.extern.packaging.markers
+# destroy pkg_resources.extern.packaging.requirements
+# cleanup[3] wiping pkg_resources.extern.six.moves.urllib
+# cleanup[3] wiping uu
+# cleanup[3] wiping hypothesis
+# destroy hypothesis._settings
+# destroy hypothesis.errors
+# destroy hypothesis.internal
+# destroy hypothesis.internal.compat
+# destroy hypothesis.internal.reflection
+# destroy hypothesis.internal.coverage
+# destroy hypothesis.internal.validation
+# destroy hypothesis.internal.cache
+# destroy hypothesis.internal.conjecture
+# destroy hypothesis.internal.conjecture.data
+# destroy hypothesis.internal.conjecture.floats
+# destroy hypothesis.internal.conjecture.minimizer
+# destroy hypothesis.internal.conjecture.engine
+# destroy hypothesis.internal.floats
+# destroy hypothesis.internal.lazyformat
+# destroy hypothesis.internal.cathetus
+# destroy hypothesis.internal.renaming
+# destroy hypothesis.internal.escalation
+# destroy hypothesis.internal.healthcheck
+# cleanup[3] wiping builtins
+# destroy _frozen_importlib_external
+# destroy subprocess
+# destroy hypothesis
+# destroy heapq
+# destroy _warnings
+# destroy importlib.util
+# destroy _sre
+# destroy sre_parse
+# destroy zlib
+# destroy _compression
+# destroy shutil
+# destroy coverage
+# destroy token
+# destroy xml
+# destroy coverage.files
+# destroy multiprocessing
+# destroy _pytest.hookspec
+# destroy select
+# destroy pytest
+# destroy json.scanner
+# destroy _json
+# destroy shlex
+# destroy _pytest.mark
+# destroy _pytest.main
+# destroy _pytest.setupplan
+# destroy _pytest.skipping
+# destroy _pytest.helpconfig
+# destroy _pytest.monkeypatch
+# destroy _pytest.warnings
+# destroy _pytest.assertion
+# destroy _pytest.junitxml
+# destroy _pytest.fixtures
+# destroy _pytest.logging
+# destroy _pytest.doctest
+# destroy _pytest.runner
+# destroy _pytest.debugging
+# destroy _pytest.cacheprovider
+# destroy _pytest.setuponly
+# destroy _pytest.unittest
+# destroy hypothesis.extra.pytestplugin
+# destroy _pytest.capture
+# destroy _pytest.nose
+# destroy _pytest.recwarn
+# destroy _pytest.freeze_support
+# destroy _pytest.terminal
+# destroy _pytest.pastebin
+# destroy _pytest.tmpdir
+# destroy _pytest.python
+# destroy _pytest.resultlog
+# destroy py.error
+# destroy reprlib
+# destroy py._path.common
+# destroy _pytest
+# destroy xml.dom.domreg
+# destroy xml.dom.minicompat
+# destroy xml.dom.NodeFilter
+# destroy xml.dom.xmlbuilder
+# destroy xml.dom.minidom
+# destroy copyreg
+# destroy multiprocessing.context
+# destroy _pickle
+# destroy _bisect
+# destroy tokenize
+# destroy keyword
+# destroy six
+# destroy difflib
+# destroy pdb
+# destroy unittest
+# destroy copy
+# destroy sre_constants
+# destroy pprint
+# destroy test_ec
+# destroy zipfile
+# destroy zipimport
+# destroy pkgutil
+# destroy plistlib
+# destroy email
+# destroy tempfile
+# destroy textwrap
+# destroy _imp
+# destroy pkg_resources.extern
+# destroy pkg_resources._vendor
+# destroy pkg_resources._vendor.six
+# destroy importlib.machinery
+# destroy pkg_resources.py31compat
+# destroy pkg_resources._vendor.appdirs
+# destroy pkg_resources._vendor.packaging
+# destroy pkg_resources._vendor.six.moves.urllib_parse
+# destroy pkg_resources._vendor.six.moves.urllib.error
+# destroy pkg_resources._vendor.six.moves.urllib.request
+# destroy pkg_resources._vendor.six.moves.urllib.response
+# destroy pkg_resources._vendor.six.moves.urllib.robotparser
+# destroy __future__
+# destroy string
+# destroy signal
+# destroy weakref
+# destroy calendar
+# destroy email.header
+# destroy base64
+# destroy uu
+# destroy quopri
+# destroy email.utils
+# destroy email.errors
+# destroy email.charset
+# destroy argparse
+# destroy unittest.loader
+# destroy unittest.runner
+# destroy collections
+# destroy _frozen_importlib
