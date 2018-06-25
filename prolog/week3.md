@@ -19,42 +19,42 @@ DIG THIS
 
 I'm really liking this pattern matching/overloading/recursion thing that happens. 
 
-% (Earlier in time)
-%
-%   ODIN
-%    ||
-%    \/
-%   SVEN
-%    ||
-%    \/
-%  JOSEPH
-%    ||
-%    \/
-%   MARK
-%    ||
-%    \/
-%   JOE
-%
-% (Later in time)
+    % (Earlier in time)
+    %
+    %   ODIN
+    %    ||
+    %    \/
+    %   SVEN
+    %    ||
+    %    \/
+    %  JOSEPH
+    %    ||
+    %    \/
+    %   MARK
+    %    ||
+    %    \/
+    %   JOE
+    %
+    % (Later in time)
 
-parent_of(mark, joe).
-parent_of(joseph, mark).
-parent_of(sven, joseph).
-parent_of(odin, sven).
+    parent_of(mark, joe).
+    parent_of(joseph, mark).
+    parent_of(sven, joseph).
+    parent_of(odin, sven).
 
-ancestor_of(X, Y) :-
-    parent_of(X, Y).
+    ancestor_of(X, Y) :-
+        parent_of(X, Y).
 
-ancestor_of(X, Y) :-
-    parent_of(X, P),
-    ancestor_of(P, Y).
+    ancestor_of(X, Y) :-
+        parent_of(X, P),
+        ancestor_of(P, Y).
 
 
 TRACE A CALL!
 
 try...
 
-ancestor_of(joseph, joe).
+    ancestor_of(joseph, joe).
 
 	[trace]  ?- ancestor_of(joseph,joe).
 	   Call: (8) ancestor_of(joseph, joe) ? creep
