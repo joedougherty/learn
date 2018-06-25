@@ -1,4 +1,4 @@
-Here's sort of a weird bit from (Derek Banas' Prolog Video)[https://www.youtube.com/watch?v=SykxWpFwMGs]:
+Here's sort of a weird bit from [Derek Banas' Prolog Video](https://www.youtube.com/watch?v=SykxWpFwMGs):
 
 
     % At the REPL/query prompt...
