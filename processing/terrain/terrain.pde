@@ -1,10 +1,3 @@
-import ddf.minim.*;
-import ddf.minim.analysis.*;
-
-Minim minim;
-AudioPlayer song;
-BeatDetect beat;
-
 int cols, rows;
 int scl = 20;
 int win_width = 2000;
@@ -33,12 +26,6 @@ void setup() {
     }
   yoff += 0.1;
   }
-
-  minim = new Minim(this);
-  song = minim.loadFile("atomicity.mp3");
-  song.play();
-  
-  beat = new BeatDetect();
 }
 
 void draw() { 
