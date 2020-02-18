@@ -57,6 +57,4 @@ void draw() {
   } else {
     drawField(base_spd, false);
   }
-  
-  saveFrame("output/med_#####.tiff");
 }
