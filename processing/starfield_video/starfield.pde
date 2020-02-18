@@ -8,14 +8,14 @@ BeatDetect beat;
 Star[] stars = new Star[2500];
 
 void setup() {
-  size(1360, 768);
+  size(1080, 720);
   
   for (int i=0; i<stars.length; i++) {
    stars[i] = new Star(); 
   }
   
   minim = new Minim(this);
-  song = minim.loadFile("eeeeeeeeeeee_session.mp3");
+  song = minim.loadFile("zoomout.mp3");
   song.play();
  
   beat = new BeatDetect();
@@ -49,10 +49,14 @@ void draw() {
   
   beat.detect(song.mix);
     
-  if (beat.isOnset()) {
-    drawField(base_spd + .005, true);
-    base_spd = base_spd + .001;
+  int d1k = int(random(0,1000));  
+    
+  if ((beat.isOnset()) || (d1k == 42) ) {
+    drawField(base_spd + .016, true);
+    base_spd = base_spd + .016;
   } else {
     drawField(base_spd, false);
   }
+  
+  saveFrame("output/med_#####.tiff");
 }
