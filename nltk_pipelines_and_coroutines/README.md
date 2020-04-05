@@ -41,7 +41,7 @@ The article opens with a pretty clear example of a text pipeline driven by a `fo
         ne_tagged_words = nltk.ne_chunk(tagged_words)
         print(ne_tagged_words)
 
-
+    [Source: https://nlpforhackers.io/building-a-nlp-pipeline-in-nltk/]
 
 The article suggests we can build a more reusable pipeline with coroutines. But hey, what's a coroutine anyway?
 
@@ -55,7 +55,7 @@ Here's the ground I had to cover before understanding the coroutine example from
 
 * Slides 1 - 14     (Intro)
 * Slides 15 -23     (Refresher on generators)
-* Slides 24 - 28    (Here we goooooooo!)
+* Slides 24 - 28    (Here we *goooooooo*!)
 * Slides 34 - 41    **IMPORTANT!** ("producers", "filters" (intermediate stages), "sinks")
 
 **Note:** _Python 3 versions of some of DB's sample code (can found under `curious_code_py3/`)_
@@ -92,6 +92,33 @@ I had the two processes open in separate tabs and I was able to what the filtere
 
 
 I'm _certain_ there's more one can do in order to get the gist of coroutines, but this works for me for now.
+
+
+Using the terminology above, I can now identify a few parts of the pipleline as proposed by _The NLP Article_.
+
+
+* `source` is the producer
+* `sent_tokenize_pipeline`, `word_tokenize_pipeline`, `pos_tag_pipeline`, `ne_chunk_pipeline`: are the filters
+* `printer` is the sink
+
+
+Most importantly, I have a somewhat easier time seeing that flow when I look at this:
+
+    #
+    # Now I can see that the pipeline goes:
+    #   sent_tokenize_pipeline -> word_tokenize_pipeline -> pos_tag_pipeline -> ne_chunk_pipeline ( -> printer )
+    #
+    source(texts, targets=[
+        sent_tokenize_pipeline(targets=[
+            word_tokenize_pipeline(targets=[
+                pos_tag_pipeline(targets=[
+                    ne_chunk_pipeline(targets=[printer()]),
+                ])
+            ])
+        ])
+    ])
+
+    [Source: https://nlpforhackers.io/building-a-nlp-pipeline-in-nltk/]
 
 
 ## II.) Revisiting the original for loop in _The NLP Article_. ##
