@@ -73,7 +73,7 @@ I recreated the following components:
 
 I hooked them up to understand the data flow. I noticed that when I ran the follow routine on line 41, there was no ouput on my console. Looking at the code comment, I see the call to `.seek(0,2)` reads from the end of the file.
 
-In order to convince myself this was working as expected, I wrote a function to write some new data to the log file that `follow` was reading from. 
+In order to convince myself this was working as expected, I wrote a function to write some new data to the log file that `follow` was reading from. I included the `pause` parameter to insert pauses between file writes so I could watch this in real time.
 
     import time
 
