@@ -34,12 +34,12 @@ If you want to follow along, this will look like:
 The article opens with a pretty clear example of a text pipeline driven by a `for` loop:
 
     for text in texts:
-    sentences = nltk.sent_tokenize(text)
-    for sentence in sentences:
-        words = nltk.word_tokenize(sentence)
-        tagged_words = nltk.pos_tag(words)
-        ne_tagged_words = nltk.ne_chunk(tagged_words)
-        print(ne_tagged_words)
+        sentences = nltk.sent_tokenize(text)
+        for sentence in sentences:
+            words = nltk.word_tokenize(sentence)
+            tagged_words = nltk.pos_tag(words)
+            ne_tagged_words = nltk.ne_chunk(tagged_words)
+            print(ne_tagged_words)
 
     [Source: https://nlpforhackers.io/building-a-nlp-pipeline-in-nltk/]
 
