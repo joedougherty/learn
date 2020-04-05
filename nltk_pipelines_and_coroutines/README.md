@@ -58,7 +58,7 @@ Here's the ground I had to cover before understanding the coroutine example from
 * Slides 24 - 28    (Here we *goooooooo*!)
 * Slides 34 - 41    **IMPORTANT!** ("producers", "filters" (intermediate stages), "sinks")
 
-**Note:** _Python 3 versions of some of DB's sample code (can found under `curious_code_py3/`)_
+**Note:** _Python 3 versions of some of DB's sample code (can found under `curious_code_py3/`).
 
  
 Here are some things I did to convince myself I understood some parts of this.
@@ -71,7 +71,7 @@ I recreated the following components:
 * The `printer` sink (slide 38)
 * The `grep` filter (slide 41)
 
-I hooked them up to understand the data flow. I noticed that when I ran the follow routine on line 41, there was no ouput on my console. Looking at the code comment, I see the call to `.seek(0,2)` reads from the end of the file.
+I hooked them up to understand the data flow. I noticed that when I ran the follow routine on line 41, there was no ouput on my console. Looking at the code comment, I see the call to `.seek(0,2)` reads from the end of the file. In this way, `follow` acts a lot like Unix's `tail`.
 
 In order to convince myself this was working as expected, I wrote a function to write some new data to the log file that `follow` was reading from. I included the `pause` parameter to insert pauses between file writes so I could watch this in real time.
 
