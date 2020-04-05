@@ -130,7 +130,7 @@ The very first question posed by the article is: "_Wouldn’t it be nice to make
 
 The coroutine-based solution we've been looking at is, of course, the solution prescribed. 
 
-Here's a small class I whipped up that tries to achive the same functional goals while being a little easier on the eyes.
+I whipped up a small class that tries to achieve the same functional goals while being a little easier on the eyes.
 
 Instead of this:
 
