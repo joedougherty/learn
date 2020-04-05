@@ -56,7 +56,7 @@ Here's the ground I had to cover before understanding the coroutine example from
 * Slides 1 - 14     (Intro)
 * Slides 15 -23     (Refresher on generators)
 * Slides 24 - 28    (Here we goooooooo!)
-* Slides 34 - 41    **IMPORTANT!** (producers, filters (intermediate stages), sinks)
+* Slides 34 - 41    **IMPORTANT!** ("producers", "filters" (intermediate stages), "sinks")
 
 **Note:** _Python 3 versions of some of DB's sample code (can found under `curious_code_py3/`)_
 
@@ -91,7 +91,7 @@ In order to convince myself this was working as expected, I wrote a function to 
 I had the two processes open in separate tabs and I was able to what the filtered lines get picked up by `grep` as they were coming in live.
 
 
-I'm _certain_ there's more one can do in order to get the gist of coroutines, but this worked for me. 
+I'm _certain_ there's more one can do in order to get the gist of coroutines, but this works for me for now.
 
 
 ## II.) Revisiting the original for loop in _The NLP Article_. ##
