@@ -26,9 +26,9 @@ If you want to follow along, this will look like:
 
 ---
 
-## My attempts to understand _The NLP Article_. ##
+## I.) My attempts to understand _The NLP Article_. ##
 
-**Note:** _Code displayed here will be modified to target Py3 even if the original source provides Py2 code._
+**Note:** _Code displayed here will be modified to target Py3 even if the original source targets Py2._
 
 
 The article opens with a pretty clear example of a text pipeline driven by a `for` loop:
@@ -60,8 +60,38 @@ Here's the ground I had to cover before understanding the coroutine example from
 
 **Note:** _Python 3 versions of some of DB's sample code (can found under `curious_code_py3/`)_
 
-* okay, now that I think I have my head around that, what does this code look like?
-    * explanation of requisite nesting
+ 
+Here are some things I did to convince myself I understood some parts of this.
+
+I recreated the following components:
+
+* The `coroutine` decorator (slide 27)
+* The `grep` coroutine (slide 29)
+* The `follow` producer (slide 38)
+* The `printer` sink (slide 38)
+* The `grep` filter (slide 41)
+
+I hooked them up to understand the data flow. I noticed that when I ran the follow routine on line 41, there was no ouput on my console. Looking at the code comment, I see the call to `.seek(0,2)` reads from the end of the file.
+
+In order to convince myself this was working as expected, I wrote a function to write some new data to the log file that `follow` was reading from. 
+
+    import time
+
+
+    def slow_write(from_file, to_file, pause=1):
+    with open(from_file, "r") as source:
+        source_lines = source.readlines()
+
+    for line in source_lines:
+        with open(to_file, "a") as dest:
+            dest.write(line)
+        time.sleep(pause)
+
+
+I had the two processes open in separate tabs and I was able to what the filtered lines get picked up by `grep` as they were coming in live.
+
+
+I'm _certain_ there's more one can do in order to get the gist of coroutines, but this worked for me. 
 
 
 ## II.) Revisiting the original for loop in _The NLP Article_. ##
