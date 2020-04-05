@@ -125,10 +125,12 @@ Most importantly, I have a somewhat easier time seeing that flow when I look at 
 ## II.) Revisiting the original `for` loop in _The NLP Article_. ##
 
 
-The very first question posed by the article is "_Wouldn’t it be nice to make this a bit more reusable?_"
+The very first question posed by the article is: "_Wouldn’t it be nice to make this a bit more reusable?_"
 
 
-The coroutine-based solution we've been looking at is, of course, the solution prescribed. Here's a small class I whipped up that tries to achive the same functional goals while being a little easier on the eyes.
+The coroutine-based solution we've been looking at is, of course, the solution prescribed. 
+
+Here's a small class I whipped up that tries to achive the same functional goals while being a little easier on the eyes.
 
 Instead of this:
 
@@ -157,9 +159,13 @@ One would do this:
     pipeline.run()
 
 
-(**Note**: There is a sample implementation of this in `NLTKPipeline/NLTKPipeline.py`.)
+There is a sample implementation of this in `NLTKPipeline/NLTKPipeline.py`. See also: `NLTKPipeline/pipeline_example.py`.
 
 It seems to me this might be more ergonomic from a developer's perspective.
+
+**Q**: Is this as performant as using coroutines?
+
+**A**: I have no idea!!! I *assume* not, but ¯\_(ツ)_/¯
 
 
 ## III.) Concluding Thoughts: Maybe more questions than answers? ##
