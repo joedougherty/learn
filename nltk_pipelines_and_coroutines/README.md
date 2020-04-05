@@ -121,12 +121,45 @@ Most importantly, I have a somewhat easier time seeing that flow when I look at 
     [Source: https://nlpforhackers.io/building-a-nlp-pipeline-in-nltk/]
 
 
-## II.) Revisiting the original for loop in _The NLP Article_. ##
 
-* Class-based approach:
-    `NLTKPipeline/NLTKPipeline.py`
-* what's this get us?
-* what about performance?
+## II.) Revisiting the original `for` loop in _The NLP Article_. ##
+
+
+The very first question posed by the article is "_Wouldn’t it be nice to make this a bit more reusable?_"
+
+
+The coroutine-based solution we've been looking at is, of course, the solution prescribed. Here's a small class I whipped up that tries to achive the same functional goals while being a little easier on the eyes.
+
+Instead of this:
+
+    def process_texts(texts):
+        for text in texts:
+            sentences = nltk.sent_tokenize(text)
+            for sentence in sentences:
+                words = nltk.word_tokenize(sentence)
+                tagged_words = nltk.pos_tag(words)
+                ne_tagged_words = nltk.ne_chunk(tagged_words)
+                print(ne_tagged_words)
+
+   
+One would do this:
+
+    pipeline = NLTKPipeline(
+        texts, 
+        steps=[
+            nltk.word_tokenize, 
+            nltk.pos_tag, 
+            nltk.ne_chunk
+        ],
+        sink=print,
+    )
+
+    pipeline.run()
+
+
+(**Note**: There is a sample implementation of this in `NLTKPipeline/NLTKPipeline.py`.)
+
+It seems to me this might be more ergonomic from a developer's perspective.
 
 
 ## III.) Concluding Thoughts: Maybe more questions than answers? ##
