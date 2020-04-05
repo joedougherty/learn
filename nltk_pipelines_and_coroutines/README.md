@@ -165,9 +165,20 @@ It seems to me this might be more ergonomic from a developer's perspective.
 
 **Q**: Is this as performant as using coroutines?
 
-**A**: I have no idea!!! I *assume* not, but ¯\_(ツ)_/¯
+**A**: I have no idea!!! I *assume* not, but would love to test.
+
+Even if this were slower than the coroutine-driven example, maybe that could be offset by throwing `multiprocessing` at it.
 
 
 ## III.) Concluding Thoughts: Maybe more questions than answers? ##
 
 
+
+Here are some things I would still like to look at at some point:
+
+* Performance testing of coroutines vs. "naive" loops 
+* Performance testing of coroutines vs. `NLTKPipeline` + `multiprocessing`
+* Understand how to incorporate branching into pipelines
+
+
+If you've followed along this far, congrats! Thanks for joining me on this quest to quell coroutine confusion.
