@@ -79,13 +79,13 @@ In order to convince myself this was working as expected, I wrote a function to 
 
 
     def slow_write(from_file, to_file, pause=1):
-    with open(from_file, "r") as source:
-        source_lines = source.readlines()
+        with open(from_file, "r") as source:
+            source_lines = source.readlines()
 
-    for line in source_lines:
-        with open(to_file, "a") as dest:
-            dest.write(line)
-        time.sleep(pause)
+        for line in source_lines:
+            with open(to_file, "a") as dest:
+                dest.write(line)
+            time.sleep(pause)
 
 
 I had the two processes open in separate tabs and I was able to what the filtered lines get picked up by `grep` as they were coming in live.
