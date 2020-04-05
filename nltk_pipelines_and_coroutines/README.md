@@ -174,7 +174,7 @@ Even if this were slower than the coroutine-driven example, maybe that could be 
 
 
 
-Here are some things I would still like to look at at some point:
+Here are some things I would still like to look into at some point:
 
 * Performance testing of coroutines vs. "naive" loops 
 * Performance testing of coroutines vs. `NLTKPipeline` + `multiprocessing`
