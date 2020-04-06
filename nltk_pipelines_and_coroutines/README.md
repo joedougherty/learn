@@ -58,7 +58,7 @@ Here's the ground I had to cover before understanding the coroutine example from
 * Slides 24 - 28    (Here we *goooooooo*!)
 * Slides 34 - 41    **IMPORTANT!** ("producers", "filters" (intermediate stages), "sinks")
 
-**Note:** _Python 3 versions of some of DB's sample code (can found under `curious_code_py3/`).
+**Note:** _Python 3 versions of some of DB's sample code (can found under_ `curious_code_py3/`_)_.
 
  
 Here are some things I did to convince myself I understood some parts of this.
