@@ -88,7 +88,7 @@ In order to convince myself this was working as expected, I wrote a function to 
             time.sleep(pause)
 
 
-I had the two processes open in separate tabs and I was able to what the filtered lines get picked up by `grep` as they were coming in live.
+I had the two processes open in separate tabs and I was able to watch the filtered lines get picked up by `grep` as they were coming in live.
 
 
 I'm _certain_ there's more one can do in order to get the gist of coroutines, but this works for me for now.
