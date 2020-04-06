@@ -169,6 +169,25 @@ It seems to me this might be more ergonomic from a developer's perspective.
 
 Even if this were slower than the coroutine-driven example, maybe that could be offset by throwing `multiprocessing` at it.
 
+---
+
+There's an associated idea I'd like to briefly touch on. `NLTKPipeline` takes the functions specified by `steps` and uses them to create an instance of `FunctionChain`.
+
+`FunctionChain` takes 2 or more functions and allows you to chain them together. The resulting object can be called like a function and will apply all the functions it is comprised of.
+
+For example:
+
+    # Specify the function order of the pipeline
+    nltk_pl = FunctionChain(
+        nltk.word_tokenize,
+        nltk.pos_tag,
+        nltk.ne_chunk,
+    )
+
+    # A bit easier to copy and paste, yeah?
+    nltk_pl(some_text) == nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(some_text)))
+
+
 
 ## III.) Concluding Thoughts: Maybe more questions than answers? ##
 
